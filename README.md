@@ -1,7 +1,8 @@
 
-![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/master/img/logo.png)
+![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/main/img/logo.png)
 
-![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/master/img/PINE-S7.jpg {width=3000px height=2000px})
+
+![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/main/img/PINE-S7.jpg)
 
 
 
