@@ -1,8 +1,8 @@
 
 ![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/main/img/logo.png)
 
-
 ![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/main/img/PINE-S7.jpg)
+
 
 
 
