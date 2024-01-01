@@ -1,7 +1,7 @@
 
 ![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/main/img/logo.png)
 
-![alt text](https://github.com/fpgatechsolution/PINE-S7/blob/main/img/PINE-S7.jpg)
+![alt text](https://fpgatechsolution.com/wp-content/uploads/2020/11/IMG_5-300x202.jpg)
 
 
 
