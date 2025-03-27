@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Feb  5 00:04:08 2025
+# Process ID: 19228
+# Current directory: C:/Users/91702/Documents/Artix-7-Projects/OrGateProject/OrGate/OrGate.runs/impl_1
+# Command line: vivado.exe -log ORgate.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ORgate.tcl -notrace
+# Log file: C:/Users/91702/Documents/Artix-7-Projects/OrGateProject/OrGate/OrGate.runs/impl_1/ORgate.vdi
+# Journal file: C:/Users/91702/Documents/Artix-7-Projects/OrGateProject/OrGate/OrGate.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ORgate.tcl -notrace

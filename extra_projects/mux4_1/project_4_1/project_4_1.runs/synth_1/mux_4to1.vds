@@ -1,0 +1,201 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Feb 23 21:49:32 2025
+# Process ID: 6797
+# Current directory: /home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.runs/synth_1
+# Command line: vivado -log mux_4to1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_4to1.tcl
+# Log file: /home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.runs/synth_1/mux_4to1.vds
+# Journal file: /home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mux_4to1.tcl -notrace
+Command: synth_design -top mux_4to1 -part xc7s15ftgb196-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Device 21-403] Loading part xc7s15ftgb196-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6854
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2390.801 ; gain = 0.000 ; free physical = 18609 ; free virtual = 28197
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mux_4to1' [/home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.srcs/sources_1/new/mux_4_1.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [/home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.srcs/sources_1/new/mux_4_1.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2390.801 ; gain = 0.000 ; free physical = 19332 ; free virtual = 28928
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2390.801 ; gain = 0.000 ; free physical = 19383 ; free virtual = 28980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2390.801 ; gain = 0.000 ; free physical = 19383 ; free virtual = 28980
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2390.801 ; gain = 0.000 ; free physical = 19377 ; free virtual = 28974
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.srcs/constrs_1/new/mux.xdc]
+Finished Parsing XDC File [/home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.srcs/constrs_1/new/mux.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.srcs/constrs_1/new/mux.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mux_4to1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mux_4to1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.742 ; gain = 0.000 ; free physical = 19290 ; free virtual = 28900
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.742 ; gain = 0.000 ; free physical = 19290 ; free virtual = 28900
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19350 ; free virtual = 28960
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19350 ; free virtual = 28960
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19352 ; free virtual = 28962
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19351 ; free virtual = 28963
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19325 ; free virtual = 28945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19205 ; free virtual = 28833
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19205 ; free virtual = 28833
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19196 ; free virtual = 28823
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |     1|
+|2     |IBUF |     6|
+|3     |OBUF |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19195 ; free virtual = 28822
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 2454.742 ; gain = 0.000 ; free physical = 19240 ; free virtual = 28868
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 2454.742 ; gain = 63.941 ; free physical = 19240 ; free virtual = 28868
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.742 ; gain = 0.000 ; free physical = 19323 ; free virtual = 28953
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.742 ; gain = 0.000 ; free physical = 19274 ; free virtual = 28905
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:24 . Memory (MB): peak = 2454.742 ; gain = 64.031 ; free physical = 19411 ; free virtual = 29041
+INFO: [Common 17-1381] The checkpoint '/home/admin1/Documents/projects/PINE_S7_details/basic_project/mux4_1/project_4_1/project_4_1.runs/synth_1/mux_4to1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mux_4to1_utilization_synth.rpt -pb mux_4to1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 23 21:50:07 2025...

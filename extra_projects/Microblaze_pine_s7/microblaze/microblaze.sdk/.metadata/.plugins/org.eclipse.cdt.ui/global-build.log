@@ -1,0 +1,9 @@
+23:13:33 **** Incremental Build of configuration Debug for project microblaze_project ****
+make all 
+make: Nothing to be done for `all'.
+23:13:49 **** Incremental Build of configuration Debug for project microblaze_project ****
+make all 
+make: Nothing to be done for `all'.
+23:15:13 **** Incremental Build of configuration Debug for project microblaze_project ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Feb 23 22:01:11 2025
+# Process ID: 10318
+# Current directory: /home/admin1/Documents/projects/PINE_S7_details/basic_project/X-OR/project_XOR/project_XOR.runs/impl_1
+# Command line: vivado -log xor_xnor_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source xor_xnor_top.tcl -notrace
+# Log file: /home/admin1/Documents/projects/PINE_S7_details/basic_project/X-OR/project_XOR/project_XOR.runs/impl_1/xor_xnor_top.vdi
+# Journal file: /home/admin1/Documents/projects/PINE_S7_details/basic_project/X-OR/project_XOR/project_XOR.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source xor_xnor_top.tcl -notrace

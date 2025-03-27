@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Feb 23 22:14:17 2025
+# Process ID: 20233
+# Current directory: /home/admin1/Documents/projects/PINE_S7_details/basic_project/LCD16BY2/project_LCD16BY2/project_LCD16BY2.runs/synth_1
+# Command line: vivado -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: /home/admin1/Documents/projects/PINE_S7_details/basic_project/LCD16BY2/project_LCD16BY2/project_LCD16BY2.runs/synth_1/TOP.vds
+# Journal file: /home/admin1/Documents/projects/PINE_S7_details/basic_project/LCD16BY2/project_LCD16BY2/project_LCD16BY2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace

@@ -1,0 +1,6 @@
+23:15:13 **** Incremental Build of configuration Debug for project microblaze_project ****
+make all 
+make: Nothing to be done for `all'.
+
+23:15:14 Build Finished (took 201ms)
+

@@ -1,0 +1,9 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Time=0 | A=0000 | B=0000 | Out=0000
+Time=10000 | A=1100 | B=1010 | Out=1110
+Time=20000 | A=1111 | B=1111 | Out=1111
+Time=30000 | A=1010 | B=0101 | Out=1111
+Time=40000 | A=0010 | B=0111 | Out=0111
+Time=50000 | A=1111 | B=0101 | Out=1111
+$finish called at time : 60 ns : File "C:/Users/91702/Documents/Artix-7-Projects/OrGateProject/OrGate/OrGate.srcs/sim_1/new/TeastBench.v" Line 42

@@ -1,0 +1,279 @@
+
+*** Running vivado
+    with args -log FourBitAndGate.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FourBitAndGate.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source FourBitAndGate.tcl -notrace
+Command: synth_design -top FourBitAndGate -part xc7s15ftgb196-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19804 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 409.871 ; gain = 96.465
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'FourBitAndGate' [C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.srcs/sources_1/new/FourBitAndGate.v:23]
+WARNING: [Synth 8-3848] Net Out in module/entity FourBitAndGate does not have driver. [C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.srcs/sources_1/new/FourBitAndGate.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'FourBitAndGate' (1#1) [C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.srcs/sources_1/new/FourBitAndGate.v:23]
+WARNING: [Synth 8-3330] design FourBitAndGate has an empty top module
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[3]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[2]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[1]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[0]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[3]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[2]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[1]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[0]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[3]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[2]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[1]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 465.508 ; gain = 152.102
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 465.508 ; gain = 152.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 465.508 ; gain = 152.102
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.srcs/constrs_1/new/IOMapping.xdc]
+Finished Parsing XDC File [C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.srcs/constrs_1/new/IOMapping.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.srcs/constrs_1/new/IOMapping.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FourBitAndGate_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FourBitAndGate_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 666.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 666.898 ; gain = 353.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 666.898 ; gain = 353.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 666.898 ; gain = 353.492
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 666.898 ; gain = 353.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3330] design FourBitAndGate has an empty top module
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[3]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[2]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[1]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port Out[0]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[3]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[2]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[1]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port A[0]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[3]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[2]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[1]
+WARNING: [Synth 8-3331] design FourBitAndGate has unconnected port B[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:38 . Memory (MB): peak = 666.898 ; gain = 353.492
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:58 . Memory (MB): peak = 735.766 ; gain = 422.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:58 . Memory (MB): peak = 735.766 ; gain = 422.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:58 . Memory (MB): peak = 735.766 ; gain = 422.359
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |OBUFT |     4|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     4|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:01:00 . Memory (MB): peak = 736.891 ; gain = 423.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:41 . Memory (MB): peak = 736.891 ; gain = 222.094
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:01:01 . Memory (MB): peak = 736.891 ; gain = 423.484
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:01:05 . Memory (MB): peak = 756.531 ; gain = 455.984
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/91702/Documents/Artix-7-Projects/AndGateProject/AndGate-4bit/AndGate-4bit.runs/synth_1/FourBitAndGate.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file FourBitAndGate_utilization_synth.rpt -pb FourBitAndGate_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 756.914 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Feb  4 23:06:33 2025...

@@ -1,0 +1,5 @@
+xpm_cdc.sv,systemverilog,xpm,../../../opt/xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,incdir="$ref_dir/../../../ipstatic/ipshared/d0f7"incdir="../../../ipstatic/ipshared/d0f7"
+xpm_VCOMP.vhd,vhdl,xpm,../../../opt/xilinx/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd,incdir="$ref_dir/../../../ipstatic/ipshared/d0f7"incdir="../../../ipstatic/ipshared/d0f7"
+design_1_clk_wiz_0_0_clk_wiz.v,verilog,xil_defaultlib,../../../../project_LCD16BY2.gen/sources_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v,incdir="$ref_dir/../../../ipstatic/ipshared/d0f7"incdir="../../../ipstatic/ipshared/d0f7"
+design_1_clk_wiz_0_0.v,verilog,xil_defaultlib,../../../../project_LCD16BY2.gen/sources_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v,incdir="$ref_dir/../../../ipstatic/ipshared/d0f7"incdir="../../../ipstatic/ipshared/d0f7"
+glbl.v,Verilog,xil_defaultlib,glbl.v
